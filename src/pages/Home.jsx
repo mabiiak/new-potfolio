@@ -15,10 +15,10 @@ function Home() {
         <h4>
           Desenvolvedora Front-End
         </h4>
-        <a href='https://github.com/mabiiak' target="_blank">
+        <a href='https://github.com/mabiiak' target="_blank" rel="noreferrer">
           <img alt='icone do gitbub' src={iconGit} width="100px" />
         </a>
-        <a href='https://www.linkedin.com/in/mabianepolniak/' target="_blank">
+        <a href='https://www.linkedin.com/in/mabianepolniak/' target="_blank" rel="noreferrer">
           <img alt='icone do linkedin' src={iconLinkedin} width="100px" />
         </a>
       </div>
