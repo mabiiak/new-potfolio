@@ -24,7 +24,7 @@ function Home() {
         </div>
       </Informations>
       <Description>
-        <h1>Olá</h1>
+        <p id='title'>Olá</p>
         <p>
           Meu nome é Mabiane, moro em Curitiba. Tenho
           Já trabalhei com atendimento ao cliente e vendas, e com isso descobri que eu gosto de ajudar outras pessoas. <br/><br/>

@@ -13,7 +13,7 @@ export const SectionBody = styled.section`
   height: 100vh;
   justify-content: center;
   width: 100vw;
-`
+  `
 
 export const Informations = styled.div`
   align-items: center;
@@ -65,7 +65,7 @@ export const Description = styled.div`
   padding: 3%;
   width: 26%;
 
-  h1 {
+  #title {
     font-size: 80px;
     margin: 0;
   }
