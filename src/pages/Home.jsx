@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import picture from '../images/mabi-picture.jpeg';
 import iconGit from '../images/icons-github.png';
 import iconLinkedin from '../images/icons-linkedin.png';
@@ -29,7 +30,7 @@ function Home() {
 
           Atualmente sou Desenvolvedora Fron-End e estudo Desenvolvimento Web na Trybe.
         </p>
-        <button>Projetos</button>
+        <Link to='/projects'>Projetos</Link>
       </div>
     </>
   );
