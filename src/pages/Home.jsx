@@ -11,8 +11,8 @@ function Home() {
       <Informations>
         <img alt='Foto de Mabiane' src={picture} />
         <div>
-          <h3> Mabiane Polniak </h3>
-          <h4> Desenvolvedora Front-End </h4>
+          <p> Mabiane Polniak </p>
+          <p id='sub-title'> Desenvolvedora Front-End </p>
         </div>
         <div id="icons">
           <a id='git' href='https://github.com/mabiiak' target="_blank" rel="noreferrer">
@@ -26,7 +26,7 @@ function Home() {
       <Description>
         <h1>Olá</h1>
         <p>
-          Meu nome é Mabiane, moro em Curitiba. 
+          Meu nome é Mabiane, moro em Curitiba. Tenho
           Já trabalhei com atendimento ao cliente e vendas, e com isso descobri que eu gosto de ajudar outras pessoas. <br/><br/>
 
           Atualmente sou Desenvolvedora Fron-End e estudo Desenvolvimento Web na Trybe.

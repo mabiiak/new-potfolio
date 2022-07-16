@@ -8,11 +8,11 @@ import {
 
 export const SectionBody = styled.section`
   align-items: center;
-  display: flex;
-  justify-content: center;
   background-image: linear-gradient(-90deg, ${background} 65%, ${backgroundSide} 0%);
-  width: 100vw;
+  display: flex;
   height: 100vh;
+  justify-content: center;
+  width: 100vw;
 `
 
 export const Informations = styled.div`
@@ -21,34 +21,66 @@ export const Informations = styled.div`
   box-shadow: 5px 10px 7px rgb(0 , 1, 5, 0.5);
   display: flex;
   flex-direction: column;
-  margin: 5% 3%;
+  height: 60%;
+  margin: 5% 1%;
   padding: 3%;
-  width: 18%;
+  width: 15%;
 
   img {
     border-radius: 50%;
-    width: 90%;
+    width: 100%;
   }
 
   div {
     text-align: center;
 
-    h3, h4 {
+    p {
       color: ${ colorText };
+      font-size: 30px;
+    }
+
+    #sub-title {
+      font-size: 15px;
+      margin-bottom: 15%;
     }
   }
 
   #icons {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     width: 50%;
   }
 
   #git {
-    width: 100%;
+    width: 135%;
   }
 `;
 
 export const Description = styled.div`
-  width: 40%;
+  color: ${ colorText };
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-between;
+  padding: 3%;
+  width: 26%;
+
+  h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    background-color: ${backgroundSide};
+    color: white;
+    font-size: 30px;
+    margin-top: 2%;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+  }
 `
